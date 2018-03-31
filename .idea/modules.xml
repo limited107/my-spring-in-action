@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/my-spring-in-action.iml" filepath="$PROJECT_DIR$/.idea/modules/my-spring-in-action.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/my-spring-in-action_main.iml" filepath="$PROJECT_DIR$/.idea/modules/my-spring-in-action_main.iml" group="my-spring-in-action" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/my-spring-in-action_test.iml" filepath="$PROJECT_DIR$/.idea/modules/my-spring-in-action_test.iml" group="my-spring-in-action" />
+    </modules>
+  </component>
+</project>
