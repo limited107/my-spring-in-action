@@ -14,6 +14,8 @@ import org.springframework.context.annotation.Configuration;
 public class CDPlayerConfig {
 	//JavaConfig에서 빈을 선언하기 위해서 원하는 타입의 인스턴스를 만드는 메소드를 만들고, @Bean으로 애너테이트한다
 
+	//@Bean은 이 메소드가 스프링 애플리케이션 컨텍스트에서 빈으로 등록된 객체를 반환해야 함을 나타낸다.
+	//메소드의 몸체는 궁극적으로 빈 인스턴스를 만드는 로직을 포함해야한다
 	@Bean   //이 경우 Bean의 이름은 sgtPeppers이다
 	public CompactDisc sgtPeppers() {
 		return new SgtPeppers();
